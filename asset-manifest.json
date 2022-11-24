@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e80e1cc.css",
+    "main.css": "/static/css/main.a541c2f3.css",
     "main.js": "/static/js/main.a8705727.js",
     "static/media/neblina1.png": "/static/media/neblina1.631c2a1272183c982f87.png",
     "static/media/neblina2.png": "/static/media/neblina2.8ad815400cc3ace7e17f.png",
@@ -29,11 +29,11 @@
     "static/media/cv.png": "/static/media/cv.4d096babc9f344e0c0de.png",
     "static/media/node.png": "/static/media/node.58d4f36f8f563ba8a4a9.png",
     "index.html": "/index.html",
-    "main.0e80e1cc.css.map": "/static/css/main.0e80e1cc.css.map",
+    "main.a541c2f3.css.map": "/static/css/main.a541c2f3.css.map",
     "main.a8705727.js.map": "/static/js/main.a8705727.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e80e1cc.css",
+    "static/css/main.a541c2f3.css",
     "static/js/main.a8705727.js"
   ]
 }

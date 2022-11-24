@@ -1,0 +1,108 @@
+@import './../../assets/scss/variaveis.scss';
+
+.footer {
+    background-color: $branco;
+    width: 100%;
+    overflow: hidden;
+    // min-height: 300px;
+    padding: 50px 0;
+    position: relative;
+
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &.animate {
+        .contact-title {
+            h2, p {
+                animation-name: translateAnimationRight;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                animation-play-state: running;
+            }
+        }
+    }
+
+    &__menu {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex: 1;
+        justify-content: space-between;
+
+        @include mobile {
+            flex-direction: row;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        &__column {
+            display: flex;
+            flex-direction: column;
+            width: 270px;
+            max-width: 100%;
+            
+            @include desktop {
+                width: auto;
+            }
+
+            @include mobile {
+               width: auto;
+
+               &:first-child {
+                width: 100%;
+               }
+            }
+
+            h4 {
+                font-size: 82px;
+                background-image: linear-gradient(to right top, #024248, #06494f, #16656a, #186b70, #1a7075, #1a7379, #1a777e, #197a82, #197e87);
+                background-clip: text;
+                color: transparent;
+                font-weight: 900;
+                text-align: left;
+
+                @include mobile {
+                    text-align: center;
+                }
+            }
+
+            a {
+                color: $color-3;
+                margin: 5px 0;
+                padding: 2px 5px;
+                width: 100%;
+                text-align: left;
+                font-size: 16px;
+                font-weight: 500;
+                
+                &:hover {
+                    text-decoration: underline;
+                }
+                
+            }
+            p  {
+                color: $color-3;
+                margin: 5px 0;
+                padding: 2px 5px;
+                width: 100%;
+                text-align: left;
+                font-weight: 900;
+                font-size: 18px;
+            }
+            
+        }
+    }
+}

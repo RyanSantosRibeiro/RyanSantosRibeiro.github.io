@@ -81,11 +81,13 @@
         
         &__item {
             margin: 0 10px;
+
             @include mobile {
-            width: 100%;   
+                width: 100%;   
             }
             
             p {
+                border:  1px solid $color-3;
                 cursor: pointer;
                 font-size: 18px;
                 color: $color-3;
